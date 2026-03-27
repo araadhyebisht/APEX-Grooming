@@ -156,7 +156,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-obsidian text-silver selection:bg-white/20">
       {/* Navigation */}
-      <nav className="navbar-glass">
+      <nav className="fixed top-0 left-0 w-full z-50 navbar-glass">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="text-2xl font-display font-bold tracking-tighter text-white">APEX.</div>
           <button 
