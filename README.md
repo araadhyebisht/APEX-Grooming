@@ -20,6 +20,14 @@ To approach this challenge with an APM mindset, I utilized the **Kano Model** to
 2. **The Delighter (The AI Hook):** * Instead of building a complex AI recommendation engine for Day 1, I positioned the "AI Stylist" as an upcoming feature. 
    * *The Strategy:* This acts as a "Fake Door" test and a high-value lead magnet. By tracking sign-ups and interactions with this specific section, we can validate user appetite for AI-driven personalization before investing heavy engineering resources.
 
+## 🖼️ Static Assets
+All image assets live in `public/images/`. Vite copies this directory verbatim to the build output, so files are served at `/images/<filename>` on the deployed site.
+
+**Conventions:**
+- Keep filenames lowercase with hyphens instead of spaces or underscores (e.g. `apex-cream.png`, not `apex cream.png` or `apex_cream.png`).
+- Reference them with an absolute path: `<img src="/images/apex-cream.png" />`.
+- Never place images in `src/` and reference them via a raw string path — use `public/images/` for static URLs or `import` them from `src/assets/` for bundled assets.
+
 ## ✨ Key Features & UI/UX
 * **Glassmorphic Design:** A premium, aspirational dark-mode aesthetic utilizing frosted glass effects and subtle micro-interactions to appeal to the target demographic.
 * **Mobile-Responsive Layout:** Fully optimized for seamless viewing across mobile, tablet, and desktop.

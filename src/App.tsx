@@ -5,25 +5,25 @@ import { Star, ChevronRight, ChevronLeft, Upload, Sparkles, CheckCircle } from '
 const carouselItems = [
   {
     id: 1,
-    image: "/textured.png",
+    image: "/images/textured.png",
     style: "Textured Crop",
     hairType: "Thick & Straight"
   },
   {
     id: 2,
-    image: "/pompadour.png",
+    image: "/images/pompadour.png",
     style: "Classic Pompadour",
     hairType: "Medium & Wavy"
   },
   {
     id: 3,
-    image: "/natural curls.png",
+    image: "/images/natural-curls.png",
     style: "Natural Curls",
     hairType: "Curly"
   },
   {
     id: 4,
-    image: "/slickback.png",
+    image: "/images/slickback.png",
     style: "Slick Back",
     hairType: "Fine & Straight"
   }
@@ -223,7 +223,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="glass rounded-3xl p-8 flex flex-col items-center text-center group hover:bg-white/5 transition-colors duration-500">
               <div className="w-full h-72 mb-8 rounded-2xl overflow-hidden relative">
-                 <img src="/apex cream.png" alt="Universal Fit" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                 <img src="/images/apex-cream.png" alt="Universal Fit" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               </div>
               <h3 className="text-2xl font-display font-semibold text-white mb-4">Universal Fit</h3>
@@ -232,7 +232,7 @@ export default function App() {
             
             <div className="glass rounded-3xl p-8 flex flex-col items-center text-center group hover:bg-white/5 transition-colors duration-500">
               <div className="w-full h-72 mb-8 rounded-2xl overflow-hidden relative">
-                 <img src="/salt_spray.png" alt="100% Clean" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                 <img src="/images/salt-spray.png" alt="100% Clean" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               </div>
               <h3 className="text-2xl font-display font-semibold text-white mb-4">100% Clean</h3>
@@ -241,7 +241,7 @@ export default function App() {
             
             <div className="glass rounded-3xl p-8 flex flex-col items-center text-center group hover:bg-white/5 transition-colors duration-500">
               <div className="w-full h-72 mb-8 rounded-2xl overflow-hidden relative">
-                 <img src="/Apex_matte.png" alt="APEX Matte Clay Styler" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?auto=format&fit=crop&q=80&w=800" }} />
+                 <img src="/images/apex-matte.png" alt="APEX Matte Clay Styler" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?auto=format&fit=crop&q=80&w=800" }} />
                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               </div>
               <h3 className="text-2xl font-display font-semibold text-white mb-4">The Matte Line</h3>
@@ -325,7 +325,7 @@ export default function App() {
                   <div className="absolute bottom-6 left-6 glass px-4 py-2 rounded-lg text-xs font-medium text-white tracking-wide uppercase">Input: Selfie</div>
                 </div>
                 <div className="w-1/2 h-full flex flex-col items-center justify-center p-8 bg-gradient-to-br from-white/5 to-transparent relative">
-                  <img src="/Apex_matte.png" alt="Product Match" className="w-40 h-40 object-cover rounded-2xl mb-6 shadow-2xl border border-white/10" onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?auto=format&fit=crop&q=80&w=200" }} />
+                  <img src="/images/apex-matte.png" alt="Product Match" className="w-40 h-40 object-cover rounded-2xl mb-6 shadow-2xl border border-white/10" onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?auto=format&fit=crop&q=80&w=200" }} />
                   <h4 className="text-white font-display font-semibold text-xl text-center mb-2">Matte Clay Styler</h4>
                   <p className="text-sm text-gray-400 text-center">98% Match for Medium Wavy</p>
                   <div className="absolute bottom-6 right-6 glass px-4 py-2 rounded-lg text-xs font-medium text-white tracking-wide uppercase">Output: Routine</div>
