@@ -169,15 +169,12 @@ export default function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center pt-20">
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=2000" 
-            alt="Stylish man with intense gaze and styled hair" 
-            className="w-full h-full object-cover opacity-40 object-top"
-          />
+      <section className="min-h-screen flex items-center justify-center pt-20 relative">
+        <div className="fixed inset-0 -z-10">
+          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=2000"
+      className="w-full h-full object-cover opacity-40 object-top"/>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-obsidian/60 to-obsidian"></div>
-        </div>
+  </div>
         
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-10">
           <motion.h1 
