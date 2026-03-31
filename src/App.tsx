@@ -223,10 +223,10 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="glass rounded-3xl p-8 flex flex-col items-center text-center group hover:bg-white/5 transition-colors duration-500">
               <div className="w-full h-72 mb-8 rounded-2xl overflow-hidden relative">
-                 <img src="/images/apex-cream.png" alt="Universal Fit" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                 <img src="/images/apex-cream.png" alt="Something for Everyone" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               </div>
-              <h3 className="text-2xl font-display font-semibold text-white mb-4">Universal Fit</h3>
+              <h3 className="text-2xl font-display font-semibold text-white mb-4">Something for Everyone</h3>
               <p className="text-gray-400 leading-relaxed">A specialized product line for every texture and style. Because your hair is unique, and your styling tools should be too</p>
             </div>
             
